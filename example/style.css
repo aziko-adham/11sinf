@@ -1,0 +1,13 @@
+.one{
+    position: relative;
+}
+.one > p{
+    width: 50%;
+}
+h1{
+    border: 2px solid red;
+    width: 50%;
+    float: right;
+    position: sticky;
+    top: 0;
+}

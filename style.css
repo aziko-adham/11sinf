@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f4f7;
+}
+.container{
+    width: 1440px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    background-color: #fff;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+.shior{
+    height: 44px;
+    background-color: #0065ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 84px;
+    box-shadow: 2px 2px lightgray;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu > a{
+    display: block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0065ad;
+    font-size: 24px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.menu > a:hover{
+    color: #fff;
+    background-color: #0065ad;
+    transition: 0.3s;
+}
+.menu > img{
+    height: 80px;
+    margin-right: 40px;
+}
+.kirish{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    width: 130px;
+    height: 44px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #0065ad;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.box{
+    background-image: url(rasmlar/fon1.png);
+    height: 818px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-in{
+    display: flex;
+    background-color: #fff;
+    border: 1px solid lightgray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.box-text{
+    width: 609px;   
+    height: 432px;
+    border-left: 4px solid #5c5cff;
+    margin-top: 64px;
+    padding-left: 45px;
+}
+.box-image{
+    width: 609px;
+    height: 560px;
+}
+.text1{
+    text-transform: uppercase;
+    color: #5c5cff;
+    font-size: 14px;
+}
+.text2{
+    text-transform: uppercase;
+    color: #0065ad;
+    font-size: 42px;
+    margin-top: 40px;
+    line-height: 63px;
+}
+.text3{
+    text-transform: uppercase;
+    color: #5c5cff;
+    font-size: 14px;
+    margin-top: 40px;
+}
+.asosiy-fan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.asosiy-s{
+    width: 1220px;
+    height: 37px;
+    display: flex;
+    justify-content: space-between;
+}
+.batafsil{
+    text-decoration: none;
+}
+.fanlar{
+    display: flex;
+    justify-content: space-between;
+    width: 1220px;
+    height: 407px;
+    margin-bottom: 40px;
+}
+.math, .eng, .it{
+    width: 369px;
+    height: 407px;
+    border: 1px solid lightgray;
+}
+.asosiy-matn{
+    padding: 32px 15px 30px 24px;
+}
+.t1{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #0065ad;
+    font-weight: bold;
+}
+.t2{
+    margin-top: 31px;
+    font-size: 13px;
+    color: #868297;
+}
+.t3{
+    margin-top: 20px;
+}
+.subscribe{
+    width: 1220px;
+    height: 150px;
+    border-radius: 7px;
+    background-color: #0065ad;
+    margin: 50px 110px;
+    color: #fff;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-text > p{
+    font-size: 40px;
+    margin-right: 20px;
+}
+.sub-form > input{
+    width: 534px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #0065ad;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+.sub-form > input:hover{
+    transform: scale(1.05);
+}
+.footer{
+    height: 300px;
+    background-color: #0065ad;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content{
+    width: 1220px;
+    height: 244px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    line-height: 25px;
+}
+li > a{
+    color: #fff;
+    text-decoration: none;
+}
+.sub{
+    text-align: center;
+}
+.sub > input{
+    width: 300px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #0065ad;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+.sub > input:hover{
+    transform: scale(1.1);
+}
+.sub > p{
+    width: 400px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+.footer-menu > p{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.icon{
+    width: 50px;
+    cursor: pointer;
+    transition: .2s;
+}
+.icon:hover{
+    transform: scale(1.1);
+}
+.social > a{
+    display: block;
+    margin-bottom: 10px;
+}
